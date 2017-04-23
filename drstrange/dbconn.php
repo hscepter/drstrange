@@ -14,7 +14,7 @@ foreach ($_SERVER as $key => $value) {
 Connection String is: <?php echo $connectstr; ?>
 
 <?php
-                   $con = mysql_connect('127.0.0.1:49257','azure','6#vWHD_$');
+                   $con = mysql_connect('127.0.0.1:50020','azure','6#vWHD_$');
                    if(!$con) { echo "Cannot connect to the database ";die();}
                    mysql_select_db('dbname');
                    $result=mysql_query('show tables');
